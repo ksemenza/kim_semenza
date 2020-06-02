@@ -1,0 +1,57 @@
+.home-bg-img {
+    background-image: url('../img/alone-penguin.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 650px;
+    width: 100%;
+}
+
+.home-ctr-body {
+    display: flex;
+    flex-direction: column;
+    justify-content: left;
+    margin-left: 550px;
+    padding-top: 150px;
+    height: fit-content;
+}
+
+.name-position-ctr {
+    height: fit-content;
+}
+
+.quote-btn-ctr {
+    height: fit-content;
+}
+
+.btn-wrap {
+    display: flex;
+    width: 100%;
+    justify-content:l;
+    margin-left: -25px;
+}
+
+button {
+    height: 45px;
+    width:180px;
+    font-size: 18px;
+    margin-left: 25px;
+    border: 2px solid #09868b;
+    border-radius: 12px;
+    color: #09868b;
+    font-weight: 700;
+}
+
+h1 {
+    margin-bottom: -10px;
+    color:#09868b;
+    font-size: 55px;
+    text-shadow: 2px 8px 6px rgba(0,0,0,0.2),
+                 0px -5px 35px rgba(255,255,255,0.3);
+}
+
+h3 {
+    font-size: 30px;
+    font-family: 'Indie Flower', cursive;
+
+}

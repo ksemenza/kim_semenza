@@ -1,0 +1,12 @@
+.quote-generator {
+    display: flex;
+    align-items: center;
+    justify-content: right;
+    width: 500px;
+    height: 45px;
+    /* color:#09868b; */
+    font-family: 'Indie Flower', cursive;
+    font-size: 22px;
+    margin-top: 55px;
+    margin-bottom: 25px;
+}

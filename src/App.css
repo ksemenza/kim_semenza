@@ -1,5 +1,6 @@
 .App {
   text-align: center;
+  
 }
 
 .App-logo {
@@ -35,8 +36,12 @@ html {
 }
 
 .app-page-ctr {
+  display: flex;
+  justify-content: center;
   margin: 5px 52px;
 }
+
+
 
 @keyframes App-logo-spin {
   from {

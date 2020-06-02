@@ -9,10 +9,12 @@ import './App.css';
 import Projects from './components/Projects';
 import Artifacts from './components/Artifacts';
 
+
 function App() {
 
   return (
         <div className='app-page-ctr'>
+          
         <Switch>   
             <Route path exact='/' component={HomePage}/>
             <Route path='/about' component={About}/>

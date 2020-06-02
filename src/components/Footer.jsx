@@ -4,8 +4,8 @@ import React from 'react'
 const Footer = () => {
 
     return (
-        <div>
-            <h2>Footer </h2>
+        <div className='footer-ctr'>
+            <h4>Footer </h4>
         </div>
     )
 }

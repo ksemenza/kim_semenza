@@ -1,0 +1,50 @@
+.card-ctr {
+    width: 500px;
+    height: 300px;
+    display: flex;
+    justify-content: center;
+}
+
+.card-ctr:hover {
+    border: 2px solid black;
+    width: 500px;
+    height: 300px;
+}
+
+img {
+ 
+    margin-left: -55px;
+}
+
+/* .card-ctr {
+    z-index: 1;
+    position: relative;
+    perspective: 1000px;
+
+}
+
+.card-ctr:hover > .project-name-img-wrap {
+    transform: rotateY(180deg)
+}
+
+.card-ctr:hover > .project-name-img-wrap > .front-side {
+    opacity: 0;
+    visibility: hidden;
+    transition: opacity 1s ease-in, visibility .75s linear;
+}
+
+.project-name-img-wrap {
+    transform-style: preserve-3d;
+    transition: all .7s linear;
+    position: absolute;
+    overflow: hidden;
+    backface-visibility: hidden;
+    box-shadow: 0 10px 35px rgba(50,50,93,.1),0
+    2px 15px rgba(0, 0, 0, .07);
+
+}
+
+.back-side {
+    z-index: 2;
+    transform: rotateY(180deg);
+} */

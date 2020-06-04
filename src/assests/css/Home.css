@@ -8,12 +8,18 @@
     /* width: 1600px; */
 }
 
+@media (max-width: 1600px) {
+    .home-bg-img {
+        width: 75%;
+    }
+}
+
 
 .home-ctr-body {
     display: flex;
     flex-direction: column;
     justify-content: center;
-    margin-left: 550px;
+    margin-left: 55%;
     padding-top: 125px;
     height: fit-content;
 }

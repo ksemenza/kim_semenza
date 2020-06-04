@@ -12,9 +12,9 @@ const Projects = () => {
 
 
         <div>
-          
+                  <h1> Projects </h1>
+
         <div className='project-ctr'>
-        <h2> Projects </h2>
       <div className='card-ctr'>
       <div className='two-card-ctr'>
             <div className='project-name-img-wrap'>

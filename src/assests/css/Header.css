@@ -101,9 +101,11 @@ img {
 }
 
 .logo:active {
-    padding: 0px;
+    padding: 4px;
     border: 2px solid #09868b;
     border-radius: 7px;
+    background-color: #76c1d4;
+
 }
 
 .header-logo-wrap {
@@ -126,5 +128,6 @@ height: 59px;
 .ks-logo:hover { 
     border:1px solid #09868b;
     border-radius: 50px;
+
 
 }

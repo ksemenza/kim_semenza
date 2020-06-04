@@ -18,14 +18,15 @@ const About = () => {
 
     return (
         <div className='about-ctr'>
-            
+
+           <h1>About me...</h1>
+
             <div className='tech-about-wrap'>
-
-
-            <h2> Resume </h2>
-            <h2> Technologies </h2>
+                <h2></h2>
+            
             <div className='tech-img-wrap'>
-                <div className='logo-row'>         <h3>Front-End<span><h4>HTML ~ CSS ~ JavaScript ~ Js Node ~ Npm ~ React ~ Redux</h4></span></h3>
+                <div className='logo-row'>         <h3>Front-End
+                    <span><h4>HTML ~ CSS ~ JavaScript ~ Js Node ~ Npm ~ React ~ Redux</h4></span></h3>
    
                     <div className='logo-img-ctr'>
             <img className='tech-logo-img' src={html}/>
@@ -38,8 +39,9 @@ const About = () => {
                 </div>
            
                 <div className='logo-row'>
-                <h3>Back-End</h3>
-                <h4>Sqlite, PostGres, Knex, Prisma, Apollo, Docker, GraphQL</h4>
+                <h3>Back-End <span>
+                    <h4>Sqlite ~ PostGres ~ Knex ~ Prisma ~ Apollo ~ Docker ~ GraphQL</h4></span></h3>
+                
                 <div className='logo-img-ctr'>
                 <img className='tech-logo-img' src={postGres}/>
                 <img className='tech-logo-img' src={knex}/>
@@ -55,7 +57,7 @@ const About = () => {
             
             </div>
 
-
+            <h2> Resume </h2>
 
         </div>
     )

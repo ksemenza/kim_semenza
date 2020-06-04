@@ -1,6 +1,6 @@
 .about-ctr {
     display: flex;
-    width: 700px;
+    width: 800px;
     flex-direction: column;
 }
 
@@ -29,3 +29,11 @@
     display: flex;
     flex-direction: column;
 }
+
+/* h3 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+} */
+

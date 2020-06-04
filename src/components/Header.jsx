@@ -27,9 +27,9 @@ const Header = () => {
      
                 <div className='header-logo-wrap'>
 
-                 <img className='linked-logo' src={LinkedInLogo} />
-                <img className='github-logo' src={GithubLogo} />
-                <img className='email-logo' src={EmailLogo} />
+                 <img className='linkedIn logo' src={LinkedInLogo} />
+                <img className='github logo' src={GithubLogo} />
+                <img className='email logo' src={EmailLogo} />
 
            </div>
                 </div>

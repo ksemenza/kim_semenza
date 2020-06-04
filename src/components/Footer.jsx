@@ -5,7 +5,8 @@ const Footer = () => {
 
     return (
         <div className='footer-ctr'>
-            <h4> Guin Productions (c) 2020 ~ Developer: Kim Semenza </h4>
+            <p>   Developer:  Kim Semenza  <a href='#' className='footer-email'>(ksemenza.247@gmail.com)</a> ~ Guin Productions (c) 2020 </p>
+      
         </div>
     )
 }

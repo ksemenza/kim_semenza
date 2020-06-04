@@ -25,13 +25,13 @@ const Header = () => {
 
                 </div>
      
-                <div className='header-logo-wrap'>
+                {/* <div className='header-logo-wrap'> */}
 
             <a href='https://www.linkedin.com/in/kim-semenza-2b4961199/' target='blank'>     <img className='linkedIn logo' src={LinkedInLogo} /> </a>
                 <a href='https://github.com/ksemenza?tab=repositories' target='blank'><img className='github logo' src={GithubLogo} /></a>
                 <a href='mailto:ksemenza.247@gmail.com'> <img className='email logo' src={EmailLogo} /> </a>
 
-           </div>
+           {/* </div> */}
                 </div>
         </div>
     )

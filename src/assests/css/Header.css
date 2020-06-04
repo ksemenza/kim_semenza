@@ -67,7 +67,7 @@ border-bottom: 4px solid #09868b;
 
 }
 
-
+/*
 @media (max-width: 1600px) {
     .nav-menu-header-container {
         margin-left: -50px;
@@ -83,6 +83,7 @@ border-bottom: 4px solid #09868b;
     }
 
 }
+*/
 
 
  
@@ -132,14 +133,19 @@ img {
     background-color: #76c1d4;
     width: 100%;
 height: 65px;
-        justify-content:center;
+        justify-content:left;
         align-items: center;
 
 }
 
 .header-container {
     background-color: #76c1d4;
-    height: fit-content;
+    
+
+    display: flex;
+    justify-content: left;
+    border-top: 4px solid #09868b;
+    
 }
 
 .ks-logo:hover { 

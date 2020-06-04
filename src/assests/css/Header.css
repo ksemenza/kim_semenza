@@ -67,6 +67,25 @@ border-bottom: 4px solid #09868b;
 
 }
 
+
+@media (max-width: 1600px) {
+    .nav-menu-header-container {
+        margin-left: -50px;
+        
+    }
+
+    .nav-link-menu-wrap  {
+        margin-left: 0px;
+    }
+
+    .header-logo-wrap {
+        width: 350px;
+    }
+
+}
+
+
+ 
 .page-title {
     display: flex;
     justify-content: center;
@@ -112,17 +131,15 @@ img {
     display: flex;
     background-color: #76c1d4;
     width: 100%;
-height: 59px;
+height: 65px;
         justify-content:center;
         align-items: center;
-
 
 }
 
 .header-container {
     background-color: #76c1d4;
     height: fit-content;
-
 }
 
 .ks-logo:hover { 

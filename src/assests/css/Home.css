@@ -8,11 +8,6 @@
     /* width: 1600px; */
 }
 
-@media (max-width: 1600px) {
-    .home-bg-img {
-        width: 75%;
-    }
-}
 
 
 .home-ctr-body {

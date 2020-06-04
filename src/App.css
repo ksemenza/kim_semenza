@@ -8,10 +8,6 @@
   pointer-events: none;
 }
 
-html {
-  width: 100%;
-  margin: 0 auto;
-}
 
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {
@@ -39,6 +35,12 @@ html {
   display: flex;
   justify-content: center;
   margin: 5px 52px;
+}
+
+@media(max-width:1200px) {
+  .app-page-ctr {
+    margin: 5px 22px;
+  }
 }
 
 

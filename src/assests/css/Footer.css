@@ -1,8 +1,15 @@
 .footer-ctr {
-    width: 100%;
     display: flex;
     justify-content: center;
-    align-items: center;
     border-top: 4px solid #09868b;
     background-color: #76c1d4;
+}
+
+
+@media (max-width: 1200px) {
+    .footer-ctr {
+        width: 1100px;
+    }
+
+
 }

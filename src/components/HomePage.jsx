@@ -9,7 +9,7 @@ const HomePage = () => {
         <div className='home-ctr-body'>
             <div className='name-position-ctr'>
             <h1>Kim Semenza</h1>
-            <h3>Web Fullstack Software Engineer</h3>
+            <h3>Fullstack Web Developer</h3>
             </div>
             <div className='quote-btn-ctr'>
                 <div className='btn-wrap'>

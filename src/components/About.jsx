@@ -14,6 +14,7 @@ import prisma from '../assests/logos/prisma.png'
 import react from '../assests/logos/reactlogo.png'
 import redux from '../assests/logos/redux-logo.png'
 import sqlite from '../assests/logos/sqlite_logo.png'
+import Resume from './Resume';
 
 const About = () => {
 
@@ -63,6 +64,8 @@ const About = () => {
             </div>
 
             <h1> Resume </h1>
+
+            <Resume/>
 
         </div>
     )

@@ -20,7 +20,7 @@ const Projects = () => {
             <div className='project-name-img-wrap'>
                 <div className='title-btn-wrap'>
             
-           <a className='project-name-a' href='#'> <h3>Restarunt Passport UI</h3> </a>
+           <a className='project-name-a' href='https://ui-git-master.ksemenza.now.sh/' target='blank'> <h3>Restarunt Passport UI</h3> </a> 
             <button className='project-detail-btn'>Details</button>
             </div>
             <img src={RestApp} alt='Restarunt Passport UI'/>
@@ -28,7 +28,7 @@ const Projects = () => {
             
  <div className='project-name-img-wrap card-filp'>
             <div className='title-btn-wrap'>
-            <a className='project-name-a' href='#'>        <h3>To Do List</h3> </a>
+            <a className='project-name-a' href='https://todo-list-phi.now.sh/' target='blank'>        <h3>To Do List</h3> </a>
             <button className='project-detail-btn'>Details</button>
             </div>
             <img src={Todo} alt='To Do List'/>
@@ -38,16 +38,17 @@ const Projects = () => {
         <div className='two-card-ctr'>
             <div className='project-name-img-wrap card-filp'>
             <div className='title-btn-wrap'>
-            <a className='project-name-a' href='#'> <h3>Rick and Morty Fan page</h3> </a>
+            <a className='project-name-a'  href="https://single-page-apps-1yng4j1mn.now.sh/" target="_blank" > <h3>Rick and Morty Fan page</h3> </a>
             <button className='project-detail-btn'>Details</button>
             </div>
             <img src={RickMorty} alt='Rick and Morty Fan Page' style={{height:'230px'}}/>
             </div>
 
+
        
             <div className='project-name-img-wrap card-filp'>
             <div className='title-btn-wrap'>
-            <a className='project-name-a' href='#'> <h3>Github User Account Profile</h3></a>
+            <a className='project-name-a' href='https://react-github-user-card-9irw09934.now.sh' target="blank"> <h3>Github User Account Profile</h3></a>
             <button className='project-detail-btn'>Details</button>
             </div>
             <img src={GithubImg} style={{height:'360px'}} alt='Github User Account'/>

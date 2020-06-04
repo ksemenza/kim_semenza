@@ -4,8 +4,10 @@
     background-repeat: no-repeat;
     background-size: cover;
     height: 1050px;
-    width: 1600px;
+    width: 100%;
+    /* width: 1600px; */
 }
+
 
 .home-ctr-body {
     display: flex;

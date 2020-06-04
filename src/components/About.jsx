@@ -17,21 +17,49 @@ import redux from '../assests/logos/redux-logo.png'
 const About = () => {
 
     return (
-        <div>
+        <div className='about-ctr'>
+            
             <div className='tech-about-wrap'>
+
+
+            <h2> Resume </h2>
             <h2> Technologies </h2>
             <div className='tech-img-wrap'>
-
-
-
+                <div className='logo-row'>         <h3>Front-End<span><h4>HTML ~ CSS ~ JavaScript ~ Js Node ~ Npm ~ React ~ Redux</h4></span></h3>
+   
+                    <div className='logo-img-ctr'>
+            <img className='tech-logo-img' src={html}/>
+            <img className='tech-logo-img' src={jslogo}/>
+            <img className='tech-logo-img' src={nodeJS}/>
+            <img className='tech-logo-img' src={npm}/>
+                <img className='tech-logo-img' src={react}/>
+                <img className='tech-logo-img' src={redux}/>
+                </div>
+                </div>
+           
+                <div className='logo-row'>
+                <h3>Back-End</h3>
+                <h4>Sqlite, PostGres, Knex, Prisma, Apollo, Docker, GraphQL</h4>
+                <div className='logo-img-ctr'>
+                <img className='tech-logo-img' src={postGres}/>
+                <img className='tech-logo-img' src={knex}/>
+                
+                <img className='tech-logo-img' src={prisma}/>
+                <img className='tech-logo-img' src={apollo}/>
+                <img className='tech-logo-img' src={docker}/>
+                <img className='tech-logo-img' src={graphql}/>
+                </div>
             </div>
             </div>
 
+            
+            </div>
 
-            <QuoteGene/>
+
 
         </div>
     )
+    
 }
 
 export default About

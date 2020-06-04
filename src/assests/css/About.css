@@ -1,11 +1,31 @@
+.about-ctr {
+    display: flex;
+    width: 700px;
+    flex-direction: column;
+}
+
 .tech-about-wrap {
+    display: flex;    
+    flex-direction: column;
 
 }
 
 .tech-img-wrap {
+    display: flex;
+    flex-direction: column;
 
 }
 
-img {
+
+.tech-logo-img {
     height: 55px;
+}
+
+.logo-img-ctr {
+    display: flex;
+}
+
+.logo-row {
+    display: flex;
+    flex-direction: column;
 }

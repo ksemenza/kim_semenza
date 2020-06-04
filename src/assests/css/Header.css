@@ -31,7 +31,6 @@ font-style: italic;
 /* border: 1px solid white; */
 border-right: 2px solid #f7f7f7;
 border-left: 2px solid #f7f7f7;
-/* border-top: 1px solid #f7f7f7; */
 border-bottom: 4px solid #09868b;
 font-size: 28px;
 
@@ -52,7 +51,7 @@ border-bottom: 4px solid #09868b;
 .nav-link-menu-wrap {
     display:flex;
     
-    margin-left: 85px;
+    margin-left: 165px;
     background-color:#76c1d4;
     
 

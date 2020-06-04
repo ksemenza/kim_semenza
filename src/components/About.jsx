@@ -13,20 +13,22 @@ import npm from '../assests/logos/npm.png'
 import prisma from '../assests/logos/prisma.png'
 import react from '../assests/logos/reactlogo.png'
 import redux from '../assests/logos/redux-logo.png'
+import sqlite from '../assests/logos/sqlite_logo.png'
 
 const About = () => {
 
     return (
         <div className='about-ctr'>
 
-           <h1>About me...</h1>
+           <h1>Skills </h1>
 
             <div className='tech-about-wrap'>
-                <h2></h2>
             
             <div className='tech-img-wrap'>
-                <div className='logo-row'>         <h3>Front-End
-                    <span><h4 className='tech-stack-list'>HTML ~ CSS ~ JavaScript ~ Js Node ~ Npm ~ React ~ Redux</h4></span></h3>
+      
+
+                <div className='logo-row'>         <h3 className='tech-title'>Front-End
+                    <span></span></h3>
    
                     <div className='logo-img-ctr'>
             <img className='tech-logo-img' src={html}/>
@@ -36,13 +38,15 @@ const About = () => {
                 <img className='tech-logo-img' src={react}/>
                 <img className='tech-logo-img' src={redux}/>
                 </div>
+                <h4 className='tech-stack-list'>HTML ~ CSS ~ JavaScript ~ Js Node ~ Npm ~ React ~ Redux</h4>
                 </div>
            
                 <div className='logo-row'>
                 <h3>Back-End <span>
-                    <h4 className='tech-stack-list'>Sqlite ~ PostGres ~ Knex ~ Prisma ~ Apollo ~ Docker ~ GraphQL</h4></span></h3>
+                </span></h3>
                 
                 <div className='logo-img-ctr'>
+                <img className='tech-logo-img' src={sqlite}/>
                 <img className='tech-logo-img' src={postGres}/>
                 <img className='tech-logo-img' src={knex}/>
                 
@@ -51,13 +55,14 @@ const About = () => {
                 <img className='tech-logo-img' src={docker}/>
                 <img className='tech-logo-img' src={graphql}/>
                 </div>
+                <h4 className='tech-stack-list'>Sqlite ~ PostGres ~ Knex ~ Prisma ~ Apollo ~ Docker ~ GraphQL</h4>
             </div>
             </div>
 
             
             </div>
 
-            <h2> Resume </h2>
+            <h1> Resume </h1>
 
         </div>
     )

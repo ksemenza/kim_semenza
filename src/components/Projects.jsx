@@ -14,12 +14,13 @@ const Projects = () => {
         <div>
           
         <div className='project-ctr'>
-        <h> Projects </h>
+        <h1> Projects </h1>
       <div className='card-ctr'>
       <div className='two-card-ctr'>
             <div className='project-name-img-wrap'>
                 <div className='title-btn-wrap'>
-            <h3>Restarunt Passport UI</h3>
+            
+           <a className='project-name-a' href='#'> <h3>Restarunt Passport UI</h3> </a>
             <button className='project-detail-btn'>Details</button>
             </div>
             <img src={RestApp} alt='Restarunt Passport UI'/>
@@ -27,7 +28,7 @@ const Projects = () => {
             
  <div className='project-name-img-wrap card-filp'>
             <div className='title-btn-wrap'>
-            <h3>To Do List</h3>
+            <a className='project-name-a' href='#'>        <h3>To Do List</h3> </a>
             <button className='project-detail-btn'>Details</button>
             </div>
             <img src={Todo} alt='To Do List'/>
@@ -37,7 +38,7 @@ const Projects = () => {
         <div className='two-card-ctr'>
             <div className='project-name-img-wrap card-filp'>
             <div className='title-btn-wrap'>
-            <h3>Rick and Morty Fan page</h3>
+            <a className='project-name-a' href='#'> <h3>Rick and Morty Fan page</h3> </a>
             <button className='project-detail-btn'>Details</button>
             </div>
             <img src={RickMorty} alt='Rick and Morty Fan Page' style={{height:'230px'}}/>
@@ -46,7 +47,7 @@ const Projects = () => {
        
             <div className='project-name-img-wrap card-filp'>
             <div className='title-btn-wrap'>
-            <h3>Github User Account Profile</h3>
+            <a className='project-name-a' href='#'> <h3>Github User Account Profile</h3></a>
             <button className='project-detail-btn'>Details</button>
             </div>
             <img src={GithubImg} style={{height:'360px'}} alt='Github User Account'/>

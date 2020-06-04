@@ -1,6 +1,6 @@
 .project-name-img-wrap  {
     width: fit-content;
-    padding: 25px;
+    padding: 55px;
 
 }
 
@@ -55,4 +55,24 @@ h3 {
 .two-card-ctr {
     display: flex;
     padding-bottom: 25px;
+}
+
+.project-name-a {
+    text-decoration: none;
+    color: black;
+}
+
+.project-name-a:hover {
+    text-decoration: underline;
+    font-weight: 600;
+    color:#09868b;
+    
+}
+
+.project-name-a:active {
+    color: black;
+}
+
+.project-name-a:visited {
+    color: #76c1d4;
 }

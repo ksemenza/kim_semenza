@@ -1,12 +1,15 @@
 .about-ctr {
     display: flex;
     width: 800px;
+    
     flex-direction: column;
+    height: 1050px;
 }
 
 .tech-about-wrap {
     display: flex;    
     flex-direction: column;
+    height: fit-content;
 
 }
 
@@ -28,6 +31,28 @@
 .logo-row {
     display: flex;
     flex-direction: column;
+    width: 900px;
+    justify-content: center;
+    align-content: center;
+}
+h2 {
+    margin-bottom: -15px;
+    margin-top: 35px;
+}
+
+h3 {
+    font-size: 42px;
+    font-weight: 800;
+ 
+}
+
+h4 {
+    font-size: 25px;
+    display: flex;
+    justify-content: center;
+    
+    font-family: Arial, Helvetica, sans-serif;
+
 }
 
 /* h3 {

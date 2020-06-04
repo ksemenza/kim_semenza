@@ -24,6 +24,7 @@
     height: fit-content;
 }
 
+
 .btn-wrap {
     display: flex;
     width: 100%;
@@ -38,8 +39,33 @@ button {
     margin-left: 25px;
     border: 2px solid #09868b;
     border-radius: 12px;
-    color: #09868b;
+    position:relative;
+    -webkit-box-shadow:0 1px 4px rgba(0, 0, 0, 0.3), 0 0 40px rgba(0, 0, 0, 0.1) inset;
+       -moz-box-shadow:0 1px 4px rgba(0, 0, 0, 0.3), 0 0 40px rgba(0, 0, 0, 0.1) inset;
+            box-shadow:0 1px 4px rgba(0, 0, 0, 0.3), 0 0 40px rgba(0, 0, 0, 0.1) inset;
+
     font-weight: 700;
+}
+
+button:hover {
+    border: 2px groove black;
+    -webkit-box-shadow: 0 10px 6px -6px #777;
+    -moz-box-shadow: 0 10px 6px -6px #777;
+         box-shadow: 0 10px 6px -6px #777;
+    color: #09868b;
+
+}
+
+button:active {
+    -webkit-box-shadow:0 1px 4px rgba(0, 0, 0, 0.3), 0 0 40px rgba(0, 0, 0, 0.1) inset;
+    -moz-box-shadow:0 1px 4px rgba(0, 0, 0, 0.3), 0 0 40px rgba(0, 0, 0, 0.1) inset;
+         box-shadow:0 1px 4px rgba(0, 0, 0, 0.3), 0 0 40px rgba(0, 0, 0, 0.1) inset;
+}
+
+button:focus {
+    border: none;
+    font-style: italic;
+    color: #09868b;
 }
 
 h1 {

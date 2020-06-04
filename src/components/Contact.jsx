@@ -112,16 +112,7 @@ box-shadow: 0 -1px 0 #e0e0e0, 0 0 2px rgba(0, 0, 0, 0.12),
                   </div>
                   <button className='submit-btn trigger'>Submit</button>       
      </form>
-     <div className='contact-info-cta'>
-       
-     <p className='contact-info-title'>Direct Contact Info</p>
-         <p className='contact-info'>
-         
-             Kim Semenza <br/>
-         781-866-1073<br/>
-         <a className='email-link' href="mailto:ksemenza.247@gmail.com">ksemenza.247@gmail.com</a>
-         </p>
-     </div>
+
   
  </div>
         </BodyCta>

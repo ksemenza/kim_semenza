@@ -26,7 +26,7 @@ const About = () => {
             
             <div className='tech-img-wrap'>
                 <div className='logo-row'>         <h3>Front-End
-                    <span><h4>HTML ~ CSS ~ JavaScript ~ Js Node ~ Npm ~ React ~ Redux</h4></span></h3>
+                    <span><h4 className='tech-stack-list'>HTML ~ CSS ~ JavaScript ~ Js Node ~ Npm ~ React ~ Redux</h4></span></h3>
    
                     <div className='logo-img-ctr'>
             <img className='tech-logo-img' src={html}/>
@@ -40,7 +40,7 @@ const About = () => {
            
                 <div className='logo-row'>
                 <h3>Back-End <span>
-                    <h4>Sqlite ~ PostGres ~ Knex ~ Prisma ~ Apollo ~ Docker ~ GraphQL</h4></span></h3>
+                    <h4 className='tech-stack-list'>Sqlite ~ PostGres ~ Knex ~ Prisma ~ Apollo ~ Docker ~ GraphQL</h4></span></h3>
                 
                 <div className='logo-img-ctr'>
                 <img className='tech-logo-img' src={postGres}/>

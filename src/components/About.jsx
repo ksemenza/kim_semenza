@@ -14,6 +14,9 @@ import prisma from '../assests/logos/prisma.png'
 import react from '../assests/logos/reactlogo.png'
 import redux from '../assests/logos/redux-logo.png'
 import sqlite from '../assests/logos/sqlite_logo.png'
+import heroku from '../assests/logos/heroku-logo.png'
+import vercel from '../assests/logos/vercel-logo.png'
+import netify from '../assests/logos/netify-logo.png'
 import Resume from './Resume';
 
 const About = () => {
@@ -58,6 +61,21 @@ const About = () => {
                 </div>
                 <h4 className='tech-stack-list'>Sqlite ~ PostGres ~ Knex ~ Prisma ~ Apollo ~ Docker ~ GraphQL</h4>
             </div>
+           
+                <div className='logo-row'>
+                <h3>Deployment <span>
+                </span></h3>
+                
+                <div className='logo-img-ctr'>
+                <img className='tech-logo-img' src={heroku}/>
+                <img className='tech-logo-img' src={vercel}/>
+                <img className='tech-logo-img' src={netify}/>
+                
+
+                </div>
+                <h4 className='tech-stack-list'>Heroku ~ Vercel (Zeit) ~ Netify </h4>
+            </div>
+
             </div>
 
             
